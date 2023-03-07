@@ -1,0 +1,25 @@
+nav {
+  background-color: #2f3386;
+}
+
+/* HOME PAGE */
+.hero-home {
+  background-image: url(../img/hero-home.svg);
+  height: 90vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-home .hero-text-home {
+  height: 60vmin;
+}
+
+.hero-home .hero-text-home p {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 2px black;
+}
+/* END HOME PAGE */
