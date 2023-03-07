@@ -13,6 +13,7 @@ nav {
 
 .hero-home .hero-text-home {
   height: 60vmin;
+  padding-top: 150px;
 }
 
 .hero-home .hero-text-home p {
@@ -21,5 +22,15 @@ nav {
   text-align: center;
   color: #fff;
   -webkit-text-stroke: 2px black;
+}
+.contact-us-home {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: #2f3386;
+  border-radius: 8px;
+  padding: 10px 20px;
+
 }
 /* END HOME PAGE */
