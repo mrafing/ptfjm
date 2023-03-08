@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 nav {
   background-color: #2f3386;
 }
@@ -13,16 +14,18 @@ nav {
 
 .cnt-hero-home {
   height: 60vmin;
-  padding-top: 180px;
+  padding-top: 140px;
 }
 
 .cnt-hero-home .hero-text-home {
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 48px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 4px;
   text-align: center;
   color: #e28103;
-  -webkit-text-stroke: 3px #2f3386;
+  -webkit-text-stroke: 2px #2f3386;
   opacity: 0.8;
 }
 .contact-us-home {
