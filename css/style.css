@@ -2,10 +2,15 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  color: #1d1c1c;
 }
 
 nav {
   background-color: #2f3386;
+}
+
+body {
+  min-height: 2000px;
 }
 
 /* HOME PAGE */
@@ -34,6 +39,7 @@ nav {
   text-shadow: -8px 5px 0px #2f3386;
   opacity: 0.9;
 }
+
 .contact-us-home {
   display: block;
   margin: 0 auto;
@@ -56,5 +62,26 @@ nav {
 .contact-us-home .contact-us-text-home {
   color: #fff;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .cnt-hero-home .hero-text-home {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cnt-hero-home .hero-text-home {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .contact-us-home {
+    padding: 8px 50px;
+  }
+
+  .contact-us-home .contact-us-text-home {
+    font-size: 1rem;
+  }
 }
 /* END HOME PAGE */
