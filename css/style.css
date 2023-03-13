@@ -93,13 +93,95 @@ body {
 .our-team-culture-home {
   padding-bottom: 180px;
 }
-
-.aside-home {
-  padding-bottom: 180px;
-}
 /* END HOME PAGE */
 
+/* ABOUT PAGE */
+.hero-about {
+  display: flex;
+  margin-bottom: 180px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/hero-about.svg);
+  height: 90vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cnt-hero-about {
+  align-self: center;
+}
+
+.cnt-hero-about .hero-text-about {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+  color: #ee5b27;
+  text-shadow: -8px 5px 0px #2f3386;
+  opacity: 0.9;
+}
+
+.about-us-about {
+  margin-bottom: 180px;
+}
+
+.visi-about {
+  margin-bottom: 60px;
+}
+
+.misi-about {
+  margin-bottom: 60px;
+}
+
+.job-experience-about {
+  margin-bottom: 180px;
+}
+
+.gallery-about {
+  margin-bottom: 180px;
+}
+
+.gallery-about .cnt-images-about {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: max-content;
+}
+
+.address-about {
+  margin-bottom: 60px;
+}
+
+.contact-about {
+  margin-bottom: 60px;
+}
+/* END ABOUT PAGE */
+
+/* CONTACT US PAGE */
+.hero-contactus {
+  display: flex;
+  margin-bottom: 180px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/hero-contact-us.svg);
+  height: 90vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-contactus {
+  margin-bottom: 160px;
+}
+/* END CONTACT US PAGE */
+
 /* FOOTER */
+.top-footer {
+  padding-top: 180px;
+  padding-bottom: 60px;
+}
 footer {
   background-color: #2f3386;
 }

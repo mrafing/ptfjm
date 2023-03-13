@@ -5,6 +5,7 @@ class ContactUs extends Controller {
     {
         $data['judul'] = 'Contact Us';
         $this->view('templates/header', $data);
+        $this->view('contactus/index', $data);
         $this->view('templates/footer');
     }
 }

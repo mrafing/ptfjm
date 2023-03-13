@@ -1,4 +1,29 @@
 
+        <div class="top-footer container">
+            <div class="row justify-content-between">
+                <div class="col-sm text-center mb-3">
+                    <img class="mb-3" src="<?= BASEURL; ?>/img/icon1.svg" alt="" width="50%">
+                    <h4>QUALITY</h4>
+                    <p>We strive for excellence in all that we do. We set high personal and company standards, and then consistently try to exceed them.</p>
+                </div>
+                <div class="col-sm text-center mb-3">
+                    <img class="mb-3" src="<?= BASEURL; ?>/img/icon2.svg" alt="" width="50%">
+                    <h4>PASSION</h4>
+                    <p>We are passionate and committed in heart and mind to what we do. Our team work around the clock coming up with ideas.</p>
+                </div>
+                <div class="col-sm text-center mb-3">
+                    <img class="mb-3" src="<?= BASEURL; ?>/img/icon3.svg" alt="" width="50%">
+                    <h4>INTEGRITY</h4>
+                    <p>When we face a tough decision we never compromise our values and principles. We do what is right, not what is the easiest.</p>
+                </div>
+                <div class="col-sm text-center mb-3">
+                    <img class="mb-3" src="<?= BASEURL; ?>/img/icon4.svg" alt="" width="50%">
+                    <h4>EXPERTISE</h4>
+                    <p>Our power is consolidated in a group of talented people, led by strong individuals who strive to deliver the finest products to our clients.</p>
+                </div>
+            </div>
+        </div>
+        
         <footer>
             <div class="container pt-5">
                 <div class="row justify-content-between align-items-center mb-5">
@@ -11,7 +36,7 @@
                                 <h5 style="color: #fff;">PT. FYTECH JAYA MANDIRI</h5>
                                 <div class="row">
                                     <div class="col-auto"><img src="<?= BASEURL; ?>/img/map.svg" width="30px"></div>
-                                    <div class="col-8"> <p style="color: #fff;">Jl. Perumahan Bumi Indah ( Ruko Tahap 1 Blok RA No.16 Gelam Jaya Kecamatan Pasar Kemis Kabupaten Tangerang Banten 15560 Indonesia</p></div>
+                                    <div class="col-8"> <p style="color: #fff;">Jl. Perumahan Bumi Indah ( Ruko Tahap 1 ) Blok RA No.16 Gelam Jaya Kecamatan Pasar Kemis Kabupaten Tangerang Banten 15560 Indonesia</p></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-auto"><img src="<?= BASEURL; ?>/img/wa.svg" width="26px"></div>
